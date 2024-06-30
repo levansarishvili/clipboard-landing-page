@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./queries.css" />
 
     <link
       rel="icon"
@@ -23,15 +24,15 @@
   </head>
   <body>
     <!-- ================== HERO SECTION ================== -->
-    <section class="section section--hero">
-      <div class="section__logo-wrapper section__logo-wrapper--hero">
-        <img
-          class="section__logo section__logo--hero"
-          src="./images/logo.svg"
-          alt="Clipboard logo"
-        />
-      </div>
+    <div class="section__logo-wrapper section__logo-wrapper--hero">
+      <img
+        class="section__logo section__logo--hero"
+        src="./images/logo.svg"
+        alt="Clipboard logo"
+      />
+    </div>
 
+    <section class="section section--hero">
       <div class="section__header-wrapper">
         <h1 class="section__header section__header--main">
           A history of everything you copy
@@ -70,20 +71,20 @@
 
         <div class="section__list-wrapper">
           <ul class="section__list">
-            <li class="list__item">
+            <li class="section__list__item">
               <p class="list__item__header">Quick Search</p>
               <p class="list__item__desc">
                 Easily search your snippets by content, category, web address,
                 application, and more.
               </p>
             </li>
-            <li class="list__item">
+            <li class="section__list__item">
               <p class="list__item__header">iCloud Sync</p>
               <p class="list__item__desc">
                 Instantly saves and syncs snippets across all your devices.
               </p>
             </li>
-            <li class="list__item">
+            <li class="section__list__item">
               <p class="list__item__header">Complete History</p>
               <p class="list__item__desc">
                 Retrieve any snippets from the first moment you started using
@@ -124,8 +125,8 @@
       </div>
 
       <div class="section__list-wrapper">
-        <ul class="section__list">
-          <li class="list__item">
+        <ul class="section__list section__list--workflow">
+          <li class="section__list__item section__list__item--workflow">
             <img
               class="list__item__icon"
               src="./images/icon-blacklist.svg"
@@ -137,7 +138,7 @@
               by excluding certain sources.
             </p>
           </li>
-          <li class="list__item">
+          <li class="section__list__item section__list__item--workflow">
             <img
               class="list__item__icon"
               src="./images/icon-text.svg"
@@ -148,7 +149,7 @@
               Remove unwanted formatting from copied text for a consistent look.
             </p>
           </li>
-          <li class="list__item">
+          <li class="section__list__item section__list__item--workflow">
             <img
               class="list__item__icon"
               src="./images/icon-preview.svg"
@@ -210,55 +211,41 @@
 
     <!-- ================== FOOTER SECTION ================== -->
     <footer class="footer">
-      <img class="footer__logo" src="./images/logo.svg" alt="clipboard logo" />
-      <ul class="footer__nav">
-        <li class="footer__nav__item">
+      <div class="footer__content-wrapper">
+        <img
+          class="footer__logo"
+          src="./images/logo.svg"
+          alt="clipboard logo"
+        />
+        <nav class="footer__nav">
           <a class="footer__nav__link" href="#">FAQs</a>
-        </li>
-        <li class="footer__nav__item">
           <a class="footer__nav__link" href="#">Contact Us</a>
-        </li>
-        <li class="footer__nav__item">
           <a class="footer__nav__link" href="#">Privacy Policy</a>
-        </li>
-        <li class="footer__nav__item">
           <a class="footer__nav__link" href="#">Press Kit</a>
-        </li>
-        <li class="footer__nav__item">
           <a class="footer__nav__link" href="#">Install Guide</a>
-        </li>
-      </ul>
+        </nav>
 
-      <div class="footer__social-links">
-        <a class="footer__social__link" href="#"
-          ><img
-            class="footer__social__icon"
-            src="./images/icon-facebook.svg"
-            alt="Facebook logo"
-        /></a>
-        <a class="footer__social__link" href="#"
-          ><img
-            class="footer__social__icon"
-            src="./images/icon-instagram.svg"
-            alt="Instagram logo"
-        /></a>
-        <a class="footer__social__link" href="#"
-          ><img
-            class="footer__social__icon"
-            src="./images/icon-twitter.svg"
-            alt="Twitter logo"
-        /></a>
+        <div class="footer__social-links">
+          <a class="footer__social__link" href="#"
+            ><img
+              class="footer__social__icon"
+              src="./images/icon-facebook.svg"
+              alt="Facebook logo"
+          /></a>
+          <a class="footer__social__link" href="#"
+            ><img
+              class="footer__social__icon"
+              src="./images/icon-instagram.svg"
+              alt="Instagram logo"
+          /></a>
+          <a class="footer__social__link" href="#"
+            ><img
+              class="footer__social__icon"
+              src="./images/icon-twitter.svg"
+              alt="Twitter logo"
+          /></a>
+        </div>
       </div>
-
-      <p class="attribution">
-        Challenge by:
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by:
-        <a href="https://github.com/levansarishvili" target="_blank"
-          >Levan Sarishvili</a
-        >.
-      </p>
     </footer>
   </body>
 </html>
