@@ -4,19 +4,20 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Live Solution URL](https://github.com/levansarishvili/clipboard-landing-page)
-- Live Site URL: [Live Site URL](https://levansarishvili.github.io/clipboard-landing-page/)
+- Solution URL: [Live URL](https://github.com/levansarishvili/clipboard-landing-page)
+- Live Site URL: [Live URL](https://levansarishvili.github.io/clipboard-landing-page/)
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS
+- Responsive design
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
 
 ## Author
 
-- Website - [Levani Sarishvili](https://www.your-site.com)
+- Github - [@levansarishvili](https://github.com/levansarishvili)
 - Frontend Mentor - [@Levani_Sarishvili](https://www.frontendmentor.io/profile/levansarishvili)
 - Linkedin - [@Levan Sarishvili](https://www.linkedin.com/in/levan-sarishvili-b87245b1/)
