@@ -96,10 +96,21 @@ a:active {
   box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305),
     inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
 }
+
+.section__btn--ios:hover {
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
 .section__btn--mac {
   background: #6174ff;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035),
     inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.section__btn--mac:hover {
+  opacity: 0.8;
+  transition: all 0.2s;
 }
 
 .section__img-wrapper {
@@ -220,6 +231,11 @@ a:active {
   letter-spacing: 0.135px;
 }
 
+.footer__nav__link:hover {
+  color: #26bba4;
+  transition: all 0.2s;
+}
+
 .footer__social-links {
   display: flex;
   align-items: center;
@@ -228,6 +244,11 @@ a:active {
 
 .footer__social__link {
   color: #4c545c;
+}
+
+.footer__social__icon:hover > path {
+  fill: #26bba4;
+  transition: all 0.2s;
 }
 
 .attribution {
